@@ -14,3 +14,14 @@ $thin-font: exo-light, sans-serif;
 
 $dark-grey: #242424;
 $medium-grey: #5c5c5c;
+$light-text: #fff;
+
+@mixin dark-row($height)
+{
+  background-color: $dark-grey;
+  height: $height;
+  text-align: center;
+  font-family: exo-light;
+  font-size: 40px;
+  color: $light-text;
+}
