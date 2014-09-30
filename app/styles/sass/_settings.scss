@@ -1,0 +1,16 @@
+@font-face{
+  font-family: exo-light;
+  src: url('/fonts/Exo-Light.woff') format('woff');
+}
+
+@font-face{
+  font-family: exo-regular;
+  src: url('/fonts/Exo-Regular.woff') format('woff');
+}
+
+$standard-distance : 10px;
+$standard-font: exo-regular, sans-serif;
+$thin-font: exo-light, sans-serif;
+
+$dark-grey: #242424;
+$medium-grey: #5c5c5c;

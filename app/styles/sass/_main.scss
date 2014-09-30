@@ -1,0 +1,25 @@
+html {
+    body {
+        font-family: $standard-font;
+        font-size: 16px;
+        margin: 0;
+        background-color: $medium-grey;
+    }
+}
+
+h2 {
+    font-family: $thin-font;
+    font-size: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+}
+
+.dark {
+    background-color: $dark-grey;
+}
