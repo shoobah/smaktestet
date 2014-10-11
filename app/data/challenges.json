@@ -1,0 +1,126 @@
+[
+  {
+    "comments": "Alla tyckte vanlig Cola k\u00e4nders blaskig.",
+    "date": "2014-09-24",
+    "flavors": [
+      "Coca Cola Zero",
+      "Pepsi Max",
+      "Coca Cola",
+      "Coca Cola Life",
+      "Coca Cola Cherry",
+      "Coca Cola Vanilla",
+      "Coca Cola Light"
+    ],
+    "name": "Cola",
+    "points": [
+      {
+        "hits": [
+          1,
+          4,
+          5,
+          6
+        ],
+        "participant": "Anders"
+      },
+      {
+        "participant": "Anna",
+        "points": []
+      },
+      {
+        "participant": "Nils",
+        "points": [
+          0,
+          4,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "comments": "X-tra \u00e4r inte bra allts\u00e5!",
+    "date": "2014-09-30",
+    "flavors": [
+      "Marabou Mj\u00f6lkchoklad",
+      "Marabou Schweizern\u00f6t",
+      "Plopp",
+      "Center",
+      "Fazer Hasseln\u00f6t",
+      "Fazer Mj\u00f6lkchoklad",
+      "X-tra mj\u00f6lkchoklad"
+    ],
+    "name": "Mj\u00f6lkchoklad",
+    "points": [
+      {
+        "hits": [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        "participant": "Anders"
+      },
+      {
+        "hits": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "participant": "Anna"
+      },
+      {
+        "hits": [
+          0,
+          2,
+          3,
+          5,
+          6
+        ],
+        "participant": "Nils"
+      }
+    ]
+  },
+  {
+    "comments": "Sv\u00e5rt. Moji Tea var riktigt \u00e4cklig, smakar Wonderbaum",
+    "date": "2014-10-08",
+    "flavors": [
+      "Raml\u00f6sa R\u00f6tt P\u00e4ron",
+      "Raml\u00f6sa Mango",
+      "Loka Vattenmelon-Citron",
+      "Loka Jordgubb-Ananas",
+      "Loka Citron",
+      "Loka Moji Tea"
+    ],
+    "name": "Bordsvatten",
+    "points": [
+      {
+        "hits": [
+          0,
+          3,
+          5,
+          6
+        ],
+        "participant": "Anders"
+      },
+      {
+        "hits": [
+          3,
+          5,
+          6
+        ],
+        "participant": "Anna"
+      },
+      {
+        "hits": [
+          5,
+          6
+        ],
+        "participant": "Nils"
+      }
+    ]
+  }
+]
