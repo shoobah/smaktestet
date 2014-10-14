@@ -16,7 +16,7 @@ h2 {
 }
 
 .a-dark-row {
-    @include dark-row(100px);
+    @include dark-row(80px);
     .center-text {
         padding-top: $standard-distance * 2;
     }
