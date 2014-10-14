@@ -3,7 +3,7 @@ import Ember from 'ember';
 export default Ember.Route.extend({
     model: function() {
         return {
-            'items': ['silly', 'bugger']
+            'items': [{name:'silly'}, {name:'bugger'}]
         };
     }
 });
