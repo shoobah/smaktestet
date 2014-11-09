@@ -1,18 +1,16 @@
 import Ember from 'ember';
 import Resolver from 'ember/resolver';
 import loadInitializers from 'ember/load-initializers';
-import DS from 'ember-data';
+import config from './config/environment';
 
 Ember.MODEL_FACTORY_INJECTIONS = true;
 
 var App = Ember.Application.extend({
-  modulePrefix: 'smaktest', // TODO: loaded via config
-  Resolver: Resolver,
-  LOG_TRANSITIONS: true
+  modulePrefix: config.modulePrefix,
+  podModulePrefix: config.podModulePrefix,
+  Resolver: Resolver
 });
 
-App.ApplicationAdapter = DS.FixtureAdapter;
-
-loadInitializers(App, 'smaktest');
+loadInitializers(App, config.modulePrefix);
 
 export default App;

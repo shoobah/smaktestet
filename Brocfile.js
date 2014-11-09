@@ -1,15 +1,8 @@
 /* global require, module */
 
 var EmberApp = require('ember-cli/lib/broccoli/ember-app');
-var compileSass = require('broccoli-sass');
 
-var app = new EmberApp({
-  'ember-cli-bootstrap': {
-    'components': ['bs-alert', 'bs-notifications', 'bs-nav'],
-    'importBootstrapTheme': true
-  }
-});
-// var appCss = compileSass(['app/styles/sass'], 'app/styles/app.scss', 'app/styles/app.css');
+var app = new EmberApp();
 
 // Use `app.import` to add additional libraries to the generated
 // output files.

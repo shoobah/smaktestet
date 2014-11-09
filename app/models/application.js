@@ -16,6 +16,6 @@ Data.FIXTURES = [{
 }, {
     id: 4,
     currentTest: 'Småkakor'
-}]
+}];
 
 export default Data;
