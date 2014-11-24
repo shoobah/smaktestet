@@ -122,5 +122,41 @@
         "participant": "Nils"
       }
     ]
+  },
+    {
+    "comments": "Vi hade 6 sorters pepparkakor, för att fylla ut till 7 lade vi till en av de andra sorterna som joker.",
+    "date": "2014-11-11",
+    "flavors": [
+      "Ballerina pepparkaka",
+      "Annas pepparkakor",
+      "ICA Kryddig pepparkaka",
+      "Kung Oscar",
+      "Gille pepparkakor",
+    ],
+    "name": "Bordsvatten",
+    "points": [
+      {
+        "hits": [
+          0,
+          1,
+          5
+        ],
+        "participant": "Anders"
+      },
+      {
+        "hits": [
+          0
+        ],
+        "participant": "Anna"
+      },
+      {
+        "hits": [
+          0,
+          3,
+          5
+        ],
+        "participant": "Nils"
+      }
+    ]
   }
 ]
