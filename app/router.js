@@ -5,8 +5,4 @@ var Router = Ember.Router.extend({
     location: config.locationType
 });
 
-Router.map(function() {
-    this.route('temperature');
-});
-
 export default Router;
