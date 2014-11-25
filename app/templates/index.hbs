@@ -1,2 +1,9 @@
-<sub>index.hbs</sub>
+<table class="white wide">
+{{#each item in model}}
+    <tr class="whiteRow">
+      <td>{{item.id}}</td>
+      <td>{{#link-to 'challenge.challenges' item}}{{item.name}}{{/link-to}}</td>
+    </tr>
+{{/each}}
+</table>
 {{outlet}}

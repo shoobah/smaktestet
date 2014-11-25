@@ -1,5 +1,4 @@
 @import "settings";
-
 html {
     body {
         font-family: $standard-font;
@@ -9,15 +8,22 @@ html {
         min-height: 1000px;
     }
 }
-
 h2 {
     font-family: $thin-font;
     font-size: 30px;
 }
-
 .a-dark-row {
     @include dark-row(80px);
     .center-text {
         padding-top: $standard-distance * 2;
     }
+}
+.white {
+    background-color: white;
+}
+.wide {
+    width: 100%;
+}
+.whiteRow:nth-child(odd) {
+    background-color: #eee;
 }
